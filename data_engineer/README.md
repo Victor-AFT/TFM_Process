@@ -25,11 +25,11 @@ Este proyecto implementa un sistema completo de extracción y análisis de carac
 
 ### Arquitectura Medallion (AWS)
 
-> 📐 **[Ver diagrama interactivo de la Arquitectura Medallion](docs/arquitectura_medallion.drawio)**
+> 📐 **Diagrama de la Arquitectura Medallion**
+>
+> ![Arquitectura Medallion](docs/Arquitectura%20Medallion.png)
 >
 > El diagrama muestra el flujo completo del pipeline: **Ingesta & Bronze** (archivos raw + normalización) → **Silver** (extracción de features con Librosa, OpenSMILE, Whisper y spaCy) → **Gold** (datos ML-ready para entrenar modelos).
->
-> *Haz clic en el enlace para ver el diagrama renderizado en GitHub, o ábrelo con [draw.io](https://app.diagrams.net/) para editarlo.*
 
 #### Flujo resumido
 
@@ -201,7 +201,8 @@ Ver `docs/CARACTERISTICAS.md` para más detalles.
 Toda la documentación técnica está organizada en `docs/`:
 
 - **[docs/IMPLEMENTACION_NUEVAS_FEATURES.md](docs/IMPLEMENTACION_NUEVAS_FEATURES.md)** ⭐ - **Cómo se implementaron las 5 nuevas características** (paso a paso)
-- **[docs/arquitectura_medallion.drawio](docs/arquitectura_medallion.drawio)** 📐 - **Diagrama de la Arquitectura Medallion** (AWS S3 + Lambda + SageMaker)
+- **[docs/Arquitectura Medallion.png](docs/Arquitectura%20Medallion.png)** 📐 - **Diagrama de la Arquitectura Medallion** (Exportado)
+- **[docs/arquitectura_medallion.drawio](docs/arquitectura_medallion.drawio)** - Archivo fuente del diagrama (AWS S3 + Lambda + SageMaker)
 - **[docs/CARACTERISTICAS.md](docs/CARACTERISTICAS.md)** - Documentación completa de todas las características
 - **[docs/GUIA_USO.md](docs/GUIA_USO.md)** - Guía detallada de uso y próximos pasos
 - **[docs/ESTRUCTURA_PROYECTO.md](docs/ESTRUCTURA_PROYECTO.md)** - Estructura y organización del proyecto
