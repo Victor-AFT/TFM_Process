@@ -264,4 +264,4 @@ Para preguntas sobre el proyecto, consulta la documentación en `docs/` o revisa
 
 ---
 
-*Última actualización: Enero 2025*
+*Última actualización: Marzo 2026*
