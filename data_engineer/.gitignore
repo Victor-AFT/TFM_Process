@@ -1,0 +1,49 @@
+# ============================================
+# Credenciales (NUNCA subir a GitHub)
+# ============================================
+credentials.json
+*.pem
+*.key
+*.p12
+.env
+.env.*
+
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# ============================================
+# Datos y audios (generados / de ejemplo)
+# ============================================
+TAILBANK/
+dementibank_normalizado/
+output_data/
+*.wav
+*.mp3
+*.flac
+
+# ============================================
+# Outputs generados
+# ============================================
+*.tmp
+
+# ============================================
+# PDFs y documentos estáticos no esenciales
+# ============================================
+static/project_information/
+
+# ============================================
+# Terraform — NUNCA subir estado ni artefactos
+# ============================================
+terraform/**/.terraform/
+terraform/**/.lambda_builds/
+terraform/**/terraform.tfstate
+terraform/**/terraform.tfstate.backup
+terraform/**/terraform.tfvars
+terraform/**/.terraform.lock.hcl
+*.tfplan
+*.tfplan.json
